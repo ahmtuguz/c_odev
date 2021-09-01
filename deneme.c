@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+int main(){
+  
+	int c = 5;
+   int **p = &c;
+
+   printf("%d", *p);  // 5
+   return 0; 
+}
